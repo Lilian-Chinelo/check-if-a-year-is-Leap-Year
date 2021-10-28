@@ -1,8 +1,6 @@
-# 🚨 Don't change the code below 👇
-year = int(input("Which year do you want to check? "))
-# 🚨 Don't change the code above 👆
+# Check if a year is Leap or Not.
 
-#Write your code below this line 👇
+year = int(input("Which year do you want to check? "))
 
 if year % 4 == 0:
   if year % 400 == 0:
